@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'MyFont1';
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav li:first-child{
+    font-family: 'MyFont1';
+}
+
+nav li:nth-child(3){
+    background-color: slategrey;
+}
+
+nav li:last-child{
+    margin-right: 0;
+    color: teal;
+}
+
+nav li:hover{
+    background-color: #fff;
+    box-shadow: 0 0 4px 4px #fff;
+    color: #333;
+}
